@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		322088DD1770770F00FB64E7 /* XFBlockDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 322088DC1770770F00FB64E7 /* XFBlockDelegate.m */; };
+		322088E01770771700FB64E7 /* CTBlockDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 322088DF1770771700FB64E7 /* CTBlockDescription.m */; };
 		3237305A177076830001CF05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32373059177076830001CF05 /* Foundation.framework */; };
-		3237305F177076830001CF05 /* BlockDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3237305E177076830001CF05 /* BlockDelegate.h */; };
-		32373061177076830001CF05 /* BlockDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32373060177076830001CF05 /* BlockDelegate.m */; };
 		32373069177076830001CF05 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32373068177076830001CF05 /* SenTestingKit.framework */; };
 		3237306B177076830001CF05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3237306A177076830001CF05 /* UIKit.framework */; };
 		3237306C177076830001CF05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32373059177076830001CF05 /* Foundation.framework */; };
@@ -35,18 +35,19 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				3237305F177076830001CF05 /* BlockDelegate.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		322088DB1770770F00FB64E7 /* XFBlockDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFBlockDelegate.h; sourceTree = "<group>"; };
+		322088DC1770770F00FB64E7 /* XFBlockDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFBlockDelegate.m; sourceTree = "<group>"; };
+		322088DE1770771700FB64E7 /* CTBlockDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTBlockDescription.h; sourceTree = "<group>"; };
+		322088DF1770771700FB64E7 /* CTBlockDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTBlockDescription.m; sourceTree = "<group>"; };
 		32373056177076830001CF05 /* libBlockDelegate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBlockDelegate.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		32373059177076830001CF05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3237305D177076830001CF05 /* BlockDelegate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlockDelegate-Prefix.pch"; sourceTree = "<group>"; };
-		3237305E177076830001CF05 /* BlockDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockDelegate.h; sourceTree = "<group>"; };
-		32373060177076830001CF05 /* BlockDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockDelegate.m; sourceTree = "<group>"; };
 		32373067177076830001CF05 /* BlockDelegateTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockDelegateTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32373068177076830001CF05 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		3237306A177076830001CF05 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -54,6 +55,7 @@
 		32373074177076830001CF05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		32373076177076830001CF05 /* BlockDelegateTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockDelegateTests.h; sourceTree = "<group>"; };
 		32373077177076830001CF05 /* BlockDelegateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockDelegateTests.m; sourceTree = "<group>"; };
+		3263797B1770776700FC6498 /* XFTestProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFTestProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +113,10 @@
 		3237305B177076830001CF05 /* BlockDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				3237305E177076830001CF05 /* BlockDelegate.h */,
-				32373060177076830001CF05 /* BlockDelegate.m */,
+				322088DE1770771700FB64E7 /* CTBlockDescription.h */,
+				322088DF1770771700FB64E7 /* CTBlockDescription.m */,
+				322088DB1770770F00FB64E7 /* XFBlockDelegate.h */,
+				322088DC1770770F00FB64E7 /* XFBlockDelegate.m */,
 				3237305C177076830001CF05 /* Supporting Files */,
 			);
 			path = BlockDelegate;
@@ -129,6 +133,7 @@
 		32373070177076830001CF05 /* BlockDelegateTests */ = {
 			isa = PBXGroup;
 			children = (
+				3263797B1770776700FC6498 /* XFTestProtocol.h */,
 				32373076177076830001CF05 /* BlockDelegateTests.h */,
 				32373077177076830001CF05 /* BlockDelegateTests.m */,
 				32373071177076830001CF05 /* Supporting Files */,
@@ -243,7 +248,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32373061177076830001CF05 /* BlockDelegate.m in Sources */,
+				322088DD1770770F00FB64E7 /* XFBlockDelegate.m in Sources */,
+				322088E01770771700FB64E7 /* CTBlockDescription.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +409,7 @@
 				3237307D177076830001CF05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3237307E177076830001CF05 /* Build configuration list for PBXNativeTarget "BlockDelegateTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +418,7 @@
 				32373080177076830001CF05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
