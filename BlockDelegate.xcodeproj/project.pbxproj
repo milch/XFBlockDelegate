@@ -7,17 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		322120C4176FB00200DAD94B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322120C3176FB00200DAD94B /* UIKit.framework */; };
-		322120C6176FB00200DAD94B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322120C5176FB00200DAD94B /* Foundation.framework */; };
-		322120C8176FB00200DAD94B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322120C7176FB00200DAD94B /* CoreGraphics.framework */; };
-		322120CE176FB00200DAD94B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 322120CC176FB00200DAD94B /* InfoPlist.strings */; };
-		322120D0176FB00200DAD94B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 322120CF176FB00200DAD94B /* main.m */; };
-		322120D4176FB00200DAD94B /* XFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 322120D3176FB00200DAD94B /* XFAppDelegate.m */; };
-		322120D6176FB00200DAD94B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 322120D5176FB00200DAD94B /* Default.png */; };
-		322120D8176FB00200DAD94B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 322120D7176FB00200DAD94B /* Default@2x.png */; };
-		322120DA176FB00200DAD94B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 322120D9176FB00200DAD94B /* Default-568h@2x.png */; };
-		322120DD176FB00200DAD94B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322120DB176FB00200DAD94B /* MainStoryboard.storyboard */; };
-		322120E0176FB00200DAD94B /* XFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 322120DF176FB00200DAD94B /* XFViewController.m */; };
 		322120E8176FB00300DAD94B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322120E7176FB00300DAD94B /* SenTestingKit.framework */; };
 		322120E9176FB00300DAD94B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322120C3176FB00200DAD94B /* UIKit.framework */; };
 		322120EA176FB00300DAD94B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322120C5176FB00200DAD94B /* Foundation.framework */; };
@@ -26,19 +15,11 @@
 		3242E62F17706A2A00D95FA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322120C5176FB00200DAD94B /* Foundation.framework */; };
 		3242E65217706A8F00D95FA4 /* XFBlockDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 322120FF176FB02200DAD94B /* XFBlockDelegate.m */; };
 		3242E65517706AE800D95FA4 /* CTBlockDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 32373049176FD1D00001CF05 /* CTBlockDescription.m */; };
-		3242E65817706B0500D95FA4 /* libBlockDelegateLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3242E62E17706A2A00D95FA4 /* libBlockDelegateLib.a */; };
 		3242E65917706B1000D95FA4 /* libBlockDelegateLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3242E62E17706A2A00D95FA4 /* libBlockDelegateLib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		3242E65317706A9E00D95FA4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 322120B8176FB00200DAD94B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3242E62D17706A2A00D95FA4;
-			remoteInfo = BlockDelegateLib;
-		};
-		3242E65617706AF100D95FA4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 322120B8176FB00200DAD94B /* Project object */;
 			proxyType = 1;
@@ -60,22 +41,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		322120C0176FB00200DAD94B /* BlockDelegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = BlockDelegate.app; path = BlockDelegateExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		322120C3176FB00200DAD94B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		322120C5176FB00200DAD94B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		322120C7176FB00200DAD94B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		322120CB176FB00200DAD94B /* BlockDelegate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlockDelegate-Info.plist"; sourceTree = "<group>"; };
-		322120CD176FB00200DAD94B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		322120CF176FB00200DAD94B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		322120D1176FB00200DAD94B /* BlockDelegate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlockDelegate-Prefix.pch"; sourceTree = "<group>"; };
-		322120D2176FB00200DAD94B /* XFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFAppDelegate.h; sourceTree = "<group>"; };
-		322120D3176FB00200DAD94B /* XFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFAppDelegate.m; sourceTree = "<group>"; };
-		322120D5176FB00200DAD94B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		322120D7176FB00200DAD94B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		322120D9176FB00200DAD94B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		322120DC176FB00200DAD94B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		322120DE176FB00200DAD94B /* XFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XFViewController.h; sourceTree = "<group>"; };
-		322120DF176FB00200DAD94B /* XFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFViewController.m; sourceTree = "<group>"; };
 		322120E6176FB00300DAD94B /* BlockDelegateTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockDelegateTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		322120E7176FB00300DAD94B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		322120EF176FB00300DAD94B /* BlockDelegateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlockDelegateTests-Info.plist"; sourceTree = "<group>"; };
@@ -95,17 +63,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		322120BD176FB00200DAD94B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3242E65817706B0500D95FA4 /* libBlockDelegateLib.a in Frameworks */,
-				322120C4176FB00200DAD94B /* UIKit.framework in Frameworks */,
-				322120C6176FB00200DAD94B /* Foundation.framework in Frameworks */,
-				322120C8176FB00200DAD94B /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		322120E2176FB00300DAD94B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,7 +90,6 @@
 			children = (
 				3237304C177071F10001CF05 /* LICENSE */,
 				3242E65A17706BAC00D95FA4 /* README.md */,
-				322120C9176FB00200DAD94B /* BlockDelegateExample */,
 				322120ED176FB00300DAD94B /* BlockDelegateTests */,
 				3242E63017706A2A00D95FA4 /* BlockDelegateLib */,
 				322120C2176FB00200DAD94B /* Frameworks */,
@@ -144,7 +100,6 @@
 		322120C1176FB00200DAD94B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				322120C0176FB00200DAD94B /* BlockDelegate.app */,
 				322120E6176FB00300DAD94B /* BlockDelegateTests.octest */,
 				3242E62E17706A2A00D95FA4 /* libBlockDelegateLib.a */,
 			);
@@ -161,34 +116,6 @@
 				3242E63C17706A2A00D95FA4 /* XCTest.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		322120C9176FB00200DAD94B /* BlockDelegateExample */ = {
-			isa = PBXGroup;
-			children = (
-				322120D2176FB00200DAD94B /* XFAppDelegate.h */,
-				322120D3176FB00200DAD94B /* XFAppDelegate.m */,
-				322120DB176FB00200DAD94B /* MainStoryboard.storyboard */,
-				322120DE176FB00200DAD94B /* XFViewController.h */,
-				322120DF176FB00200DAD94B /* XFViewController.m */,
-				322120CA176FB00200DAD94B /* Supporting Files */,
-			);
-			name = BlockDelegateExample;
-			path = BlockDelegate;
-			sourceTree = "<group>";
-		};
-		322120CA176FB00200DAD94B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				322120CB176FB00200DAD94B /* BlockDelegate-Info.plist */,
-				322120CC176FB00200DAD94B /* InfoPlist.strings */,
-				322120CF176FB00200DAD94B /* main.m */,
-				322120D1176FB00200DAD94B /* BlockDelegate-Prefix.pch */,
-				322120D5176FB00200DAD94B /* Default.png */,
-				322120D7176FB00200DAD94B /* Default@2x.png */,
-				322120D9176FB00200DAD94B /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		322120ED176FB00300DAD94B /* BlockDelegateTests */ = {
@@ -234,24 +161,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		322120BF176FB00200DAD94B /* BlockDelegateExample */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 322120F8176FB00300DAD94B /* Build configuration list for PBXNativeTarget "BlockDelegateExample" */;
-			buildPhases = (
-				322120BC176FB00200DAD94B /* Sources */,
-				322120BD176FB00200DAD94B /* Frameworks */,
-				322120BE176FB00200DAD94B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3242E65717706AF100D95FA4 /* PBXTargetDependency */,
-			);
-			name = BlockDelegateExample;
-			productName = BlockDelegate;
-			productReference = 322120C0176FB00200DAD94B /* BlockDelegate.app */;
-			productType = "com.apple.product-type.application";
-		};
 		322120E5176FB00300DAD94B /* BlockDelegateTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 322120FB176FB00300DAD94B /* Build configuration list for PBXNativeTarget "BlockDelegateTests" */;
@@ -310,7 +219,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				322120BF176FB00200DAD94B /* BlockDelegateExample */,
 				322120E5176FB00300DAD94B /* BlockDelegateTests */,
 				3242E62D17706A2A00D95FA4 /* BlockDelegateLib */,
 			);
@@ -318,18 +226,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		322120BE176FB00200DAD94B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				322120CE176FB00200DAD94B /* InfoPlist.strings in Resources */,
-				322120D6176FB00200DAD94B /* Default.png in Resources */,
-				322120D8176FB00200DAD94B /* Default@2x.png in Resources */,
-				322120DA176FB00200DAD94B /* Default-568h@2x.png in Resources */,
-				322120DD176FB00200DAD94B /* MainStoryboard.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		322120E3176FB00300DAD94B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -357,16 +253,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		322120BC176FB00200DAD94B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				322120D0176FB00200DAD94B /* main.m in Sources */,
-				322120D4176FB00200DAD94B /* XFAppDelegate.m in Sources */,
-				322120E0176FB00200DAD94B /* XFViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		322120E1176FB00300DAD94B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -392,30 +278,9 @@
 			target = 3242E62D17706A2A00D95FA4 /* BlockDelegateLib */;
 			targetProxy = 3242E65317706A9E00D95FA4 /* PBXContainerItemProxy */;
 		};
-		3242E65717706AF100D95FA4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3242E62D17706A2A00D95FA4 /* BlockDelegateLib */;
-			targetProxy = 3242E65617706AF100D95FA4 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		322120CC176FB00200DAD94B /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				322120CD176FB00200DAD94B /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		322120DB176FB00200DAD94B /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				322120DC176FB00200DAD94B /* en */,
-			);
-			name = MainStoryboard.storyboard;
-			sourceTree = "<group>";
-		};
 		322120F0176FB00300DAD94B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -483,28 +348,6 @@
 			};
 			name = Release;
 		};
-		322120F9176FB00300DAD94B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BlockDelegate/BlockDelegate-Prefix.pch";
-				INFOPLIST_FILE = "BlockDelegate/BlockDelegate-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		322120FA176FB00300DAD94B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BlockDelegate/BlockDelegate-Prefix.pch";
-				INFOPLIST_FILE = "BlockDelegate/BlockDelegate-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
 		322120FC176FB00300DAD94B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -513,7 +356,7 @@
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlockDelegate/BlockDelegate-Prefix.pch";
 				INFOPLIST_FILE = "BlockDelegateTests/BlockDelegateTests-Info.plist";
@@ -532,7 +375,7 @@
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlockDelegate/BlockDelegate-Prefix.pch";
 				INFOPLIST_FILE = "BlockDelegateTests/BlockDelegateTests-Info.plist";
@@ -596,15 +439,6 @@
 			buildConfigurations = (
 				322120F6176FB00300DAD94B /* Debug */,
 				322120F7176FB00300DAD94B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		322120F8176FB00300DAD94B /* Build configuration list for PBXNativeTarget "BlockDelegateExample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				322120F9176FB00300DAD94B /* Debug */,
-				322120FA176FB00300DAD94B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
