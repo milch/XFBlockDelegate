@@ -7,6 +7,7 @@
 //
 
 #import "XFViewController.h"
+#import "XFBlockDelegate.h"
 
 @interface XFViewController ()
 
@@ -17,13 +18,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    XFBlockDelegate *tableDelegate = [XFBlockDelegate delegateWithProtocol:@protocol(UITableViewDataSource)];
+    tableDelegate[@"tableView:numberOfRowsInSection:"] = ^(UITableView *tableView, NSInteger section) {
+        return 10;
+    };
+    tableDelegate[@"tableView:cellForRowAtIndexPath:"] = ^(UITableView *tableView, NSIndexPath *indexPath) {
+        UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Stuff"];
+        cell.textLabel.text = @"This class rocks!";
+        return cell;
+    };
+    self.tableView.dataSource = (id)tableDelegate;
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 @end

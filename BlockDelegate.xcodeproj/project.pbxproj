@@ -23,20 +23,44 @@
 		322120EA176FB00300DAD94B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322120C5176FB00200DAD94B /* Foundation.framework */; };
 		322120F2176FB00300DAD94B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 322120F0176FB00300DAD94B /* InfoPlist.strings */; };
 		322120F5176FB00300DAD94B /* BlockDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 322120F4176FB00300DAD94B /* BlockDelegateTests.m */; };
+		3242E62F17706A2A00D95FA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322120C5176FB00200DAD94B /* Foundation.framework */; };
+		3242E65217706A8F00D95FA4 /* XFBlockDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 322120FF176FB02200DAD94B /* XFBlockDelegate.m */; };
+		3242E65517706AE800D95FA4 /* CTBlockDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 32373049176FD1D00001CF05 /* CTBlockDescription.m */; };
+		3242E65817706B0500D95FA4 /* libBlockDelegateLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3242E62E17706A2A00D95FA4 /* libBlockDelegateLib.a */; };
+		3242E65917706B1000D95FA4 /* libBlockDelegateLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3242E62E17706A2A00D95FA4 /* libBlockDelegateLib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		322120EB176FB00300DAD94B /* PBXContainerItemProxy */ = {
+		3242E65317706A9E00D95FA4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 322120B8176FB00200DAD94B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 322120BF176FB00200DAD94B;
-			remoteInfo = BlockDelegate;
+			remoteGlobalIDString = 3242E62D17706A2A00D95FA4;
+			remoteInfo = BlockDelegateLib;
+		};
+		3242E65617706AF100D95FA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 322120B8176FB00200DAD94B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3242E62D17706A2A00D95FA4;
+			remoteInfo = BlockDelegateLib;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3242E62C17706A2A00D95FA4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		322120C0176FB00200DAD94B /* BlockDelegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockDelegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		322120C0176FB00200DAD94B /* BlockDelegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = BlockDelegate.app; path = BlockDelegateExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		322120C3176FB00200DAD94B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		322120C5176FB00200DAD94B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		322120C7176FB00200DAD94B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,6 +82,16 @@
 		322120F1176FB00300DAD94B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		322120F3176FB00300DAD94B /* BlockDelegateTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockDelegateTests.h; sourceTree = "<group>"; };
 		322120F4176FB00300DAD94B /* BlockDelegateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockDelegateTests.m; sourceTree = "<group>"; };
+		322120FE176FB02200DAD94B /* XFBlockDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XFBlockDelegate.h; path = ../BlockDelegate/XFBlockDelegate.h; sourceTree = "<group>"; };
+		322120FF176FB02200DAD94B /* XFBlockDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XFBlockDelegate.m; path = ../BlockDelegate/XFBlockDelegate.m; sourceTree = "<group>"; };
+		32373047176FC11D0001CF05 /* XFTestProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFTestProtocol.h; sourceTree = "<group>"; };
+		32373048176FD1D00001CF05 /* CTBlockDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTBlockDescription.h; path = ../BlockDelegate/CTBlockDescription.h; sourceTree = "<group>"; };
+		32373049176FD1D00001CF05 /* CTBlockDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTBlockDescription.m; path = ../BlockDelegate/CTBlockDescription.m; sourceTree = "<group>"; };
+		3237304C177071F10001CF05 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3242E62E17706A2A00D95FA4 /* libBlockDelegateLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBlockDelegateLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3242E63217706A2A00D95FA4 /* BlockDelegateLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlockDelegateLib-Prefix.pch"; sourceTree = "<group>"; };
+		3242E63C17706A2A00D95FA4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3242E65A17706BAC00D95FA4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3242E65817706B0500D95FA4 /* libBlockDelegateLib.a in Frameworks */,
 				322120C4176FB00200DAD94B /* UIKit.framework in Frameworks */,
 				322120C6176FB00200DAD94B /* Foundation.framework in Frameworks */,
 				322120C8176FB00200DAD94B /* CoreGraphics.framework in Frameworks */,
@@ -75,9 +110,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3242E65917706B1000D95FA4 /* libBlockDelegateLib.a in Frameworks */,
 				322120E8176FB00300DAD94B /* SenTestingKit.framework in Frameworks */,
 				322120E9176FB00300DAD94B /* UIKit.framework in Frameworks */,
 				322120EA176FB00300DAD94B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3242E62B17706A2A00D95FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3242E62F17706A2A00D95FA4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,8 +131,11 @@
 		322120B7176FB00200DAD94B = {
 			isa = PBXGroup;
 			children = (
-				322120C9176FB00200DAD94B /* BlockDelegate */,
+				3237304C177071F10001CF05 /* LICENSE */,
+				3242E65A17706BAC00D95FA4 /* README.md */,
+				322120C9176FB00200DAD94B /* BlockDelegateExample */,
 				322120ED176FB00300DAD94B /* BlockDelegateTests */,
+				3242E63017706A2A00D95FA4 /* BlockDelegateLib */,
 				322120C2176FB00200DAD94B /* Frameworks */,
 				322120C1176FB00200DAD94B /* Products */,
 			);
@@ -99,6 +146,7 @@
 			children = (
 				322120C0176FB00200DAD94B /* BlockDelegate.app */,
 				322120E6176FB00300DAD94B /* BlockDelegateTests.octest */,
+				3242E62E17706A2A00D95FA4 /* libBlockDelegateLib.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,11 +158,12 @@
 				322120C5176FB00200DAD94B /* Foundation.framework */,
 				322120C7176FB00200DAD94B /* CoreGraphics.framework */,
 				322120E7176FB00300DAD94B /* SenTestingKit.framework */,
+				3242E63C17706A2A00D95FA4 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		322120C9176FB00200DAD94B /* BlockDelegate */ = {
+		322120C9176FB00200DAD94B /* BlockDelegateExample */ = {
 			isa = PBXGroup;
 			children = (
 				322120D2176FB00200DAD94B /* XFAppDelegate.h */,
@@ -124,6 +173,7 @@
 				322120DF176FB00200DAD94B /* XFViewController.m */,
 				322120CA176FB00200DAD94B /* Supporting Files */,
 			);
+			name = BlockDelegateExample;
 			path = BlockDelegate;
 			sourceTree = "<group>";
 		};
@@ -147,6 +197,7 @@
 				322120F3176FB00300DAD94B /* BlockDelegateTests.h */,
 				322120F4176FB00300DAD94B /* BlockDelegateTests.m */,
 				322120EE176FB00300DAD94B /* Supporting Files */,
+				32373047176FC11D0001CF05 /* XFTestProtocol.h */,
 			);
 			path = BlockDelegateTests;
 			sourceTree = "<group>";
@@ -160,12 +211,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3242E63017706A2A00D95FA4 /* BlockDelegateLib */ = {
+			isa = PBXGroup;
+			children = (
+				32373048176FD1D00001CF05 /* CTBlockDescription.h */,
+				32373049176FD1D00001CF05 /* CTBlockDescription.m */,
+				322120FE176FB02200DAD94B /* XFBlockDelegate.h */,
+				322120FF176FB02200DAD94B /* XFBlockDelegate.m */,
+				3242E63117706A2A00D95FA4 /* Supporting Files */,
+			);
+			path = BlockDelegateLib;
+			sourceTree = "<group>";
+		};
+		3242E63117706A2A00D95FA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3242E63217706A2A00D95FA4 /* BlockDelegateLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		322120BF176FB00200DAD94B /* BlockDelegate */ = {
+		322120BF176FB00200DAD94B /* BlockDelegateExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 322120F8176FB00300DAD94B /* Build configuration list for PBXNativeTarget "BlockDelegate" */;
+			buildConfigurationList = 322120F8176FB00300DAD94B /* Build configuration list for PBXNativeTarget "BlockDelegateExample" */;
 			buildPhases = (
 				322120BC176FB00200DAD94B /* Sources */,
 				322120BD176FB00200DAD94B /* Frameworks */,
@@ -174,8 +245,9 @@
 			buildRules = (
 			);
 			dependencies = (
+				3242E65717706AF100D95FA4 /* PBXTargetDependency */,
 			);
-			name = BlockDelegate;
+			name = BlockDelegateExample;
 			productName = BlockDelegate;
 			productReference = 322120C0176FB00200DAD94B /* BlockDelegate.app */;
 			productType = "com.apple.product-type.application";
@@ -192,12 +264,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				322120EC176FB00300DAD94B /* PBXTargetDependency */,
+				3242E65417706A9E00D95FA4 /* PBXTargetDependency */,
 			);
 			name = BlockDelegateTests;
 			productName = BlockDelegateTests;
 			productReference = 322120E6176FB00300DAD94B /* BlockDelegateTests.octest */;
 			productType = "com.apple.product-type.bundle";
+		};
+		3242E62D17706A2A00D95FA4 /* BlockDelegateLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3242E64F17706A2A00D95FA4 /* Build configuration list for PBXNativeTarget "BlockDelegateLib" */;
+			buildPhases = (
+				3242E62A17706A2A00D95FA4 /* Sources */,
+				3242E62B17706A2A00D95FA4 /* Frameworks */,
+				3242E62C17706A2A00D95FA4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlockDelegateLib;
+			productName = BlockDelegateLib;
+			productReference = 3242E62E17706A2A00D95FA4 /* libBlockDelegateLib.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -221,8 +310,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				322120BF176FB00200DAD94B /* BlockDelegate */,
+				322120BF176FB00200DAD94B /* BlockDelegateExample */,
 				322120E5176FB00300DAD94B /* BlockDelegateTests */,
+				3242E62D17706A2A00D95FA4 /* BlockDelegateLib */,
 			);
 		};
 /* End PBXProject section */
@@ -285,13 +375,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3242E62A17706A2A00D95FA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3242E65517706AE800D95FA4 /* CTBlockDescription.m in Sources */,
+				3242E65217706A8F00D95FA4 /* XFBlockDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		322120EC176FB00300DAD94B /* PBXTargetDependency */ = {
+		3242E65417706A9E00D95FA4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 322120BF176FB00200DAD94B /* BlockDelegate */;
-			targetProxy = 322120EB176FB00300DAD94B /* PBXContainerItemProxy */;
+			target = 3242E62D17706A2A00D95FA4 /* BlockDelegateLib */;
+			targetProxy = 3242E65317706A9E00D95FA4 /* PBXContainerItemProxy */;
+		};
+		3242E65717706AF100D95FA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3242E62D17706A2A00D95FA4 /* BlockDelegateLib */;
+			targetProxy = 3242E65617706AF100D95FA4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -409,9 +513,11 @@
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlockDelegate/BlockDelegate-Prefix.pch";
 				INFOPLIST_FILE = "BlockDelegateTests/BlockDelegateTests-Info.plist";
+				LLVM_LTO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
@@ -426,12 +532,59 @@
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlockDelegate/BlockDelegate-Prefix.pch";
 				INFOPLIST_FILE = "BlockDelegateTests/BlockDelegateTests-Info.plist";
+				LLVM_LTO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		3242E64B17706A2A00D95FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				DSTROOT = /tmp/BlockDelegateLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockDelegateLib/BlockDelegateLib-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3242E64C17706A2A00D95FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				DSTROOT = /tmp/BlockDelegateLib.dst;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlockDelegateLib/BlockDelegateLib-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -447,13 +600,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		322120F8176FB00300DAD94B /* Build configuration list for PBXNativeTarget "BlockDelegate" */ = {
+		322120F8176FB00300DAD94B /* Build configuration list for PBXNativeTarget "BlockDelegateExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				322120F9176FB00300DAD94B /* Debug */,
 				322120FA176FB00300DAD94B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		322120FB176FB00300DAD94B /* Build configuration list for PBXNativeTarget "BlockDelegateTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +616,16 @@
 				322120FD176FB00300DAD94B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3242E64F17706A2A00D95FA4 /* Build configuration list for PBXNativeTarget "BlockDelegateLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3242E64B17706A2A00D95FA4 /* Debug */,
+				3242E64C17706A2A00D95FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

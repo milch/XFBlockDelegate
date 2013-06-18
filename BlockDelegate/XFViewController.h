@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XFViewController : UIViewController
+@interface XFViewController : UITableViewController <UIAccelerometerDelegate>
 
 @end
